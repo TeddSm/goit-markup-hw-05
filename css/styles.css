@@ -582,6 +582,9 @@ nav>ul {
     height: 120px;
     resize: none;
     outline: none;
+}
+
+.comment-box {
     margin-bottom: 16px;
 }
 
