@@ -497,6 +497,8 @@ nav>ul {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     letter-spacing: 0.04em;
+    line-height: 1.5;
+    cursor: pointer;
     text-align: center;
     color: #fff;
     text-align: center;
