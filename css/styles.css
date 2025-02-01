@@ -597,12 +597,6 @@ nav>ul {
     margin-bottom: 24px;
 }
 
-.form-checkbox:checked .user-checkbox {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
-
 .user-checkbox {
     display: inline-flex;
     align-items: center;
@@ -610,11 +604,18 @@ nav>ul {
     fill: transparent;
     width: 16px;
     height: 16px;
+    margin-right: 8px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-checkbox:checked + .form-lable .user-checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .user-privacy-link {
@@ -624,6 +625,7 @@ nav>ul {
 .form-btn {
     display: block;
     margin: 24px auto 0 auto;
+    border: none;
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 169px;
